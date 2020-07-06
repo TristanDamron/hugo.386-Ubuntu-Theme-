@@ -235,7 +235,7 @@ body {
   font-size: 18px;
   line-height: 20px;
   color: #bbbbbb;
-  background-color: #000084;
+  background-color: #5E2750;
 }
 
 a {
@@ -646,11 +646,6 @@ a:focus {
 }
 
 img {
-  -webkit-filter: contrast(800%);
-     -moz-filter: contrast(1000%);
-      -ms-filter: contrast(800%);
-       -o-filter: contrast(800%);
-          filter: contrast(1000%);
 }
 
 p {
@@ -800,31 +795,37 @@ h3:after {
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 24px;
   text-transform: uppercase;
+  padding-bottom: 24px;
 }
 
 h2 {
   font-size: 18px;
   text-align: center;
   white-space: nowrap;
+  padding-bottom: 24px;
 }
 
 h3 {
   font-size: 18px;
+  padding-bottom: 24px;
 }
 
 h4 {
   font-size: 18px;
   color: #fe54fe;
+  padding-bottom: 24px;
 }
 
 h5 {
   font-size: 18px;
+  padding-bottom: 24px;
 }
 
 h6 {
   font-size: 18px;
+  padding-bottom: 24px;
 }
 
 h1 small {
@@ -846,11 +847,11 @@ h4 small {
 .page-header {
   padding: 20px 20px;
   margin: 20px 0 20px;
-  background: #00aaaa;
+  background: #333333;
 }
 
 .page-header h1 {
-  color: #000000;
+  color: #FFFFFF;
 }
 
 ul,
@@ -2036,7 +2037,7 @@ table {
 }
 
 .table .table {
-  background-color: #000084;
+  background-color: #2C001E;
 }
 
 .table-condensed th,
@@ -3908,7 +3909,7 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs > .active > a:focus {
   color: #bbbbbb;
   cursor: default;
-  background-color: #000084;
+  background-color: #2C001E;
   border: 0;
   border-bottom-color: transparent;
 }
@@ -4228,7 +4229,7 @@ input[type="submit"].btn.btn-mini {
   padding: 0 10px;
   margin-left: -10px;
   font-size: 18px;
-  color: #000084;
+  color: #2C001E;
   text-shadow: 0;
 }
 
@@ -4596,7 +4597,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar-inverse .brand {
-  color: #000084;
+  color: #2C001E;
 }
 
 .navbar-inverse .navbar-text {
@@ -5870,7 +5871,7 @@ a.badge:focus {
   z-index: 9999999;
   width: 100%;
   height: 100%;
-  background: #000084;
+  background: #000;
 }
 
 #bar386 {
@@ -5880,7 +5881,7 @@ a.badge:focus {
   margin-top: -20px;
   font-weight: bold;
   color: #ffffff;
-  background: #000084;
+  background: #2C001E;
 }
 
 #cursor386 {
@@ -5890,4 +5891,18 @@ a.badge:focus {
   z-index: 9999999;
   font-weight: bold;
   color: #ffffff;
+}
+
+#toc {
+  background-color: #bbbbbb;
+  width: 20%;
+  position: fixed;
+  margin-left: 80%;
+  height: 100%;
+  margin-top: 0px;
+  float: right;
+}
+
+#nav-bar p {
+  text-align: center;
 }
